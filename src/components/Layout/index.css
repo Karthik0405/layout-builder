@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.layout-container {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  min-height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  .layout-container {
+    margin: 15px;
+    margin-top: 30px;
+    min-height: 100vh;
+  }
+}

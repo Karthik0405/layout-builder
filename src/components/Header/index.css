@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  height: 20vh;
+  margin-bottom: 10px;
+}
+.header {
+  color: #475569;
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+  .header-container {
+    height: 10vh;
+  }
+  .header {
+    font-size: 24px;
+  }
+}
